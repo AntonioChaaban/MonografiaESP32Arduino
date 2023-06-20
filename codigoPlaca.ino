@@ -6,7 +6,7 @@
 const char* ssid = "LocationConnection";
 const char* password = "12345678";
 const char* nameAp = "AP2";
-const char* serverName = "http://181.222.167.71:3000/tcp-data";
+const char* serverName = "/tcp-data";
 WiFiClient client;
 void setup() {
   WiFi.mode(WIFI_STA);
